@@ -1,0 +1,20 @@
+{
+  "name": "ts-sourcemap-decode",
+  "version": "1.0.0",
+  "description": "Source map decoder/encoder (vlq base64) for stack trace mapping",
+  "main": "main.ts",
+  "scripts": {
+    "start": "npx tsx main.ts"
+  },
+  "keywords": ["typescript", "sourcemap", "vlq", "debugging", "tooling"],
+  "author": "Mahmoud ElNemer <sultanelnemer@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ElNeMeR70/ts-sourcemap-decode.git"
+  },
+  "devDependencies": {
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
